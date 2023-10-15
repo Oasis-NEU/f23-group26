@@ -15,6 +15,7 @@
 		715E4F422ADC525500A2F4A3 /* frenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E4F412ADC525500A2F4A3 /* frenUITests.swift */; };
 		715E4F442ADC525500A2F4A3 /* frenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E4F432ADC525500A2F4A3 /* frenUITestsLaunchTests.swift */; };
 		793E72C52ADC5A7B000B2C5A /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E72C42ADC5A7B000B2C5A /* SignIn.swift */; };
+		793E72C72ADC5DDF000B2C5A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E72C62ADC5DDF000B2C5A /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		715E4F412ADC525500A2F4A3 /* frenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenUITests.swift; sourceTree = "<group>"; };
 		715E4F432ADC525500A2F4A3 /* frenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		793E72C42ADC5A7B000B2C5A /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		793E72C62ADC5DDF000B2C5A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				715E4F262ADC525000A2F4A3 /* frenApp.swift */,
 				715E4F282ADC525000A2F4A3 /* ContentView.swift */,
 				793E72C42ADC5A7B000B2C5A /* SignIn.swift */,
+				793E72C62ADC5DDF000B2C5A /* Home.swift */,
 				715E4F2A2ADC525400A2F4A3 /* Assets.xcassets */,
 				715E4F2C2ADC525400A2F4A3 /* Preview Content */,
 			);
@@ -262,6 +265,7 @@
 			files = (
 				715E4F292ADC525000A2F4A3 /* ContentView.swift in Sources */,
 				793E72C52ADC5A7B000B2C5A /* SignIn.swift in Sources */,
+				793E72C72ADC5DDF000B2C5A /* Home.swift in Sources */,
 				715E4F272ADC525000A2F4A3 /* frenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

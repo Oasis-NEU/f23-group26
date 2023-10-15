@@ -11,7 +11,7 @@ struct ContentView: View {
     
     var body: some View {
         if (signInStatus) {
-            Text("homee")
+            Home(signInStatus: $signInStatus)
         } else {
             SignIn(signInStatus: $signInStatus)
         }
