@@ -4,19 +4,20 @@
 //
 //  Created by Lea Kwok on 10/15/23.
 //
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var signInStatus = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if (signInStatus) {
+            Text("home")
+        } else {
+            SignIn(signInStatus: $signInStatus)
         }
-        .padding()
     }
+    
+    
 }
 
 #Preview {
