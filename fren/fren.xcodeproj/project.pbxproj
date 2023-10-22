@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A9D305E2AE5832000C1D161 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D305D2AE5832000C1D161 /* SignUp.swift */; };
+		5A9D30602AE58ABE00C1D161 /* AccountSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D305F2AE58ABE00C1D161 /* AccountSettings.swift */; };
 		715E4F272ADC525000A2F4A3 /* frenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E4F262ADC525000A2F4A3 /* frenApp.swift */; };
 		715E4F292ADC525000A2F4A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715E4F282ADC525000A2F4A3 /* ContentView.swift */; };
 		715E4F2B2ADC525400A2F4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715E4F2A2ADC525400A2F4A3 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A9D305D2AE5832000C1D161 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		5A9D305F2AE58ABE00C1D161 /* AccountSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettings.swift; sourceTree = "<group>"; };
 		715E4F232ADC525000A2F4A3 /* fren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		715E4F262ADC525000A2F4A3 /* frenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frenApp.swift; sourceTree = "<group>"; };
 		715E4F282ADC525000A2F4A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				715E4F262ADC525000A2F4A3 /* frenApp.swift */,
 				715E4F282ADC525000A2F4A3 /* ContentView.swift */,
 				793E72C42ADC5A7B000B2C5A /* SignIn.swift */,
+				5A9D305D2AE5832000C1D161 /* SignUp.swift */,
+				5A9D305F2AE58ABE00C1D161 /* AccountSettings.swift */,
 				793E72C62ADC5DDF000B2C5A /* Home.swift */,
 				715E4F2A2ADC525400A2F4A3 /* Assets.xcassets */,
 				715E4F2C2ADC525400A2F4A3 /* Preview Content */,
@@ -265,8 +271,10 @@
 			files = (
 				715E4F292ADC525000A2F4A3 /* ContentView.swift in Sources */,
 				793E72C52ADC5A7B000B2C5A /* SignIn.swift in Sources */,
+				5A9D30602AE58ABE00C1D161 /* AccountSettings.swift in Sources */,
 				793E72C72ADC5DDF000B2C5A /* Home.swift in Sources */,
 				715E4F272ADC525000A2F4A3 /* frenApp.swift in Sources */,
+				5A9D305E2AE5832000C1D161 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"fren/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -458,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"fren/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
