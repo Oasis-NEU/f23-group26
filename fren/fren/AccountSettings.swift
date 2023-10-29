@@ -7,11 +7,15 @@
 
 import SwiftUI
 struct AccountSettings : View{
+    @State private var userData = UserData()
+    
+    
     var body: some View{
         Text ("Account Settings")
         .frame(width: 200, height: 210)
         .font(.largeTitle)
         .bold()
+        
         HStack{
             //label column
             VStack(alignment:.leading){
@@ -34,18 +38,18 @@ struct AccountSettings : View{
             }
             //user info column
             VStack{
-                Text("First Name")
-                Text("Last Name")
-                Text("Email")
-                Text("Phone Number")
-                Text("Password")
-                Text("Location")
-                Text("School Name")
+                Text(userData.name)
+                Text(userData.email)
+                Text(userData.phoneNumber)
+                Text(userData.password)
+                Text(userData.location)
+                Text(userData.school)
                 //TextField(text: $name)
             }
         }
     }
 }
+
 
 #Preview {
     AccountSettings()

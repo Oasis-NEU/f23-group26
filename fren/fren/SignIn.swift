@@ -11,6 +11,9 @@ struct SignIn: View {
     @Binding var signInStatus: Bool
     @State private var email: String = ""
     @State private var password: String = ""
+    
+    @State private var userData = UserData()
+    
     var body: some View {
         VStack {
             Text("Log in")
@@ -28,9 +31,12 @@ struct SignIn: View {
     
     func signIn() {
         print("sign in")
-        email = ""
-        password = ""
-        signInStatus = true
+        if (email == userData.email && password == userData.password) {
+            signInStatus = true; 
+        } 
+        //email = ""
+        //password = ""
+        //signInStatus = true
     }
     
     

@@ -10,6 +10,7 @@ struct ContentView: View {
     @State private var signInStatus = false
     
     var body: some View {
+        // if username and password is correct, sign in
         if (signInStatus) {
             Home(signInStatus: $signInStatus)
         } else {
