@@ -17,6 +17,7 @@ struct SignIn: View {
     var body: some View {
         VStack {
             Text("Log in")
+                .font(.largeTitle)
             TextField("email", text: $email)
                 .frame(width: 200, height: 60)
             TextField("password", text: $password)
