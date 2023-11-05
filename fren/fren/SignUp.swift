@@ -33,7 +33,7 @@ struct SignUp: View {
     var body: some View {
         VStack {
             Text("The beginning of a new journey starts now...")
-                .frame(width: 200, height: 210)
+                .frame(width: 300, height: 210)
                 .font(.largeTitle)
                 .bold()
             TextField("Full Name", text: $userData.name)

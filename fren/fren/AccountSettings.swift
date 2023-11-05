@@ -20,22 +20,21 @@ struct AccountSettings : View{
             //label column
             VStack(alignment:.leading){
                 //picture
-                Text("First Name")
-                .frame(width: 200, height: 30)
-                Text("Last Name")
-                .frame(width: 200, height: 30)
-                Text("Email")
-                .frame(width: 200, height: 30)
-                Text("Phone Number")
-                .frame(width: 200, height: 30)
-                Text("Password")
-                .frame(width: 200, height: 30)
-                Text("Location")
-                .frame(width: 200, height: 30)
-                Text("School Name")
-                .frame(width: 200, height: 30)
+                TextField("Name", text: $userData.name)
+                    .frame(width: 200, height: 30)
+                TextField("Email", text: $userData.email)
+                    .frame(width: 200, height: 30)
+                TextField("Phone Number", text: $userData.phoneNumber)
+                    .frame(width: 200, height: 30)
+                TextField("Password", text: $userData.password)
+                    .frame(width: 200, height: 30)
+                TextField("Location", text: $userData.location)
+                    .frame(width: 200, height: 30)
+                TextField("School Name", text: $userData.school)
+                    .frame(width: 200, height: 30)
 
             }
+            .textFieldStyle(.roundedBorder)
             //user info column
             VStack{
                 Text(userData.name)
