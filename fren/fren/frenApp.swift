@@ -7,8 +7,12 @@
 
 import SwiftUI
 
+import Supabase
+
+
 @main
 struct frenApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

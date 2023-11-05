@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct UserData {
     var name: String = ""
     var email: String = ""
@@ -21,10 +20,9 @@ struct UserData {
 
 struct SignUp: View {
     @State private var userData = UserData()
+    
     /*
-    @State private var email: String = ""
     @State private var name: String = ""
-    @State private var password: String = ""
     @State private var phoneNumber: String = "" //may need to be a number/int
     @State private var location: String = ""
     @State private var school: String = ""
@@ -48,23 +46,26 @@ struct SignUp: View {
                 .frame(width: 200, height: 60)
             TextField("School Name (optional)", text: $userData.school)
                 .frame(width: 200, height: 60)
-            Button(action: signUp) {
+            Button(action: signUpButton) {
                 Text("Sign Up")
             }
         }
     }
-    func signUp() {
-        print("sign up")
-        /*
-        name = ""
-        email = ""
-        password = ""
-        phoneNumber = ""
-        location = ""
-        school = ""
-         */
-        userData = UserData()
+    func signUpButton(){
+        Auth().signUp(email: userData.email, password: userData.password)
     }
+//    func signUp() {
+//        print("sign up")
+//        /*
+//        name = ""
+//        email = ""
+//        password = ""
+//        phoneNumber = ""
+//        location = ""
+//        school = ""
+//         */
+//        userData = UserData()
+//    }
 }
 
 #Preview {

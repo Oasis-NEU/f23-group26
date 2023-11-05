@@ -32,6 +32,7 @@ struct SignIn: View {
     
     func signIn() {
         print("sign in")
+        Auth().signIn(email: userData.email, password: userData.password)
         if (email == userData.email && password == userData.password) {
             signInStatus = true; 
         } 
