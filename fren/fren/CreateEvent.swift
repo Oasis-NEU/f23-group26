@@ -53,6 +53,7 @@ struct CreateEvent : View{
         }
     }
     func createEventButton(){
+        
     }
     
 }

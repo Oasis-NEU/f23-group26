@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02EAB37E2B014F99009AB94F /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EAB37D2B014F99009AB94F /* userData.swift */; };
 		5A5CEE1C2B0143DA0084C263 /* CreateEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5CEE1B2B0143DA0084C263 /* CreateEvent.swift */; };
 		5A5CEE1E2B014A800084C263 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5CEE1D2B014A800084C263 /* Notifications.swift */; };
 		5A9D305E2AE5832000C1D161 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D305D2AE5832000C1D161 /* SignUp.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02EAB37D2B014F99009AB94F /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
 		5A5CEE1B2B0143DA0084C263 /* CreateEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEvent.swift; sourceTree = "<group>"; tabWidth = 3; };
 		5A5CEE1D2B014A800084C263 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		5A9D305D2AE5832000C1D161 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				5A5CEE1B2B0143DA0084C263 /* CreateEvent.swift */,
 				793E72C42ADC5A7B000B2C5A /* SignIn.swift */,
 				5A9D305D2AE5832000C1D161 /* SignUp.swift */,
+				02EAB37D2B014F99009AB94F /* userData.swift */,
 				5A9D305F2AE58ABE00C1D161 /* AccountSettings.swift */,
 				5A5CEE1D2B014A800084C263 /* Notifications.swift */,
 				793E72C62ADC5DDF000B2C5A /* Home.swift */,
@@ -294,6 +297,7 @@
 				793E72C72ADC5DDF000B2C5A /* Home.swift in Sources */,
 				715E4F272ADC525000A2F4A3 /* frenApp.swift in Sources */,
 				5A9D305E2AE5832000C1D161 /* SignUp.swift in Sources */,
+				02EAB37E2B014F99009AB94F /* userData.swift in Sources */,
 				71B455E92AF8118D0031F541 /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

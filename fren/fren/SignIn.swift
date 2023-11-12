@@ -35,10 +35,7 @@ struct SignIn: View {
         Auth().signIn(email: userData.email, password: userData.password)
         if (email == userData.email && password == userData.password) {
             signInStatus = true; 
-        } 
-        //email = ""
-        //password = ""
-        //signInStatus = true
+        }
     }
     
     

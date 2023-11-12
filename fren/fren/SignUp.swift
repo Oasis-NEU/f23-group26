@@ -7,26 +7,9 @@
 
 import SwiftUI
 
-struct UserData : Encodable {
-    var name: String = ""
-    var email: String = ""
-    var password: String = ""
-    var phoneNumber: String = ""
-    var location: String = ""
-    var school: String = ""
-}
-
-
 
 struct SignUp: View {
     @State private var userData = UserData()
-    
-    /*
-    @State private var name: String = ""
-    @State private var phoneNumber: String = "" //may need to be a number/int
-    @State private var location: String = ""
-    @State private var school: String = ""
-     */
 
     var body: some View {
         VStack {
@@ -65,18 +48,6 @@ struct SignUp: View {
             print("Invalid phone number")
         }
     }
-//    func signUp() {
-//        print("sign up")
-//        /*
-//        name = ""
-//        email = ""
-//        password = ""
-//        phoneNumber = ""
-//        location = ""
-//        school = ""
-//         */
-//        userData = UserData()
-//    }
 }
 
 #Preview {
