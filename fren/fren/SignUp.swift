@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UserData {
+struct UserData : Encodable {
     var name: String = ""
     var email: String = ""
     var password: String = ""
@@ -51,8 +51,19 @@ struct SignUp: View {
             }
         }
     }
-    func signUpButton(){
-        Auth().signUp(email: userData.email, password: userData.password)
+    func signUpButton() {
+        if let number = Int8(userData.phoneNumber) {
+            Auth().signUp(
+                email: userData.email,
+                password: userData.password,
+                full_name: userData.name,
+                phone: number,
+                location: userData.location,
+                school: userData.school
+            )
+        } else {
+            print("Invalid phone number")
+        }
     }
 //    func signUp() {
 //        print("sign up")

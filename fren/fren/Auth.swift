@@ -21,11 +21,12 @@ class Auth{
               let session = try await client.auth.session
               print("### Session Info: \(session)")
               
+              let number = String(phone)
               
-              let city = UserData(name: full_name, email: email, password: password, phoneNumber: phone)
+              let city = UserData(name: full_name, email: email, password: password, phoneNumber: number)
               try await client.database
                     .from("user_data")
-                    .insert(city)
+                    .insert(values: city)
                     .execute()
           } catch {
               print("### Sign Up Error: \(error)")
